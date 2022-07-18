@@ -1,0 +1,51 @@
+{
+  "env_paras": {
+    "num_jobs": 10,
+    "num_mas": 5,
+    "batch_size": 20,
+    "ope_feat_dim" : 6,
+    "ma_feat_dim" : 3,
+    "show_mode": "print",
+    "valid_batch_size": 100
+  },
+  "model_paras": {
+    "in_size_ma": 3,
+    "out_size_ma": 8,
+    "in_size_ope": 6,
+    "out_size_ope": 8,
+    "hidden_size_ope": 128,
+    "num_heads": [1, 1],
+    "dropout": 0.0,
+    "n_latent_actor": 64,
+    "n_latent_critic": 64,
+    "n_hidden_actor": 3,
+    "n_hidden_critic": 3,
+    "action_dim": 1
+  },
+  "train_paras": {
+    "lr": 0.0002,
+    "betas": [0.9, 0.999],
+    "gamma": 1.0,
+    "K_epochs": 3,
+    "eps_clip": 0.2,
+    "A_coeff": 1.0,
+    "vf_coeff": 0.5,
+    "entropy_coeff": 0.01,
+    "max_iterations": 1000,
+    "save_timestep": 10,
+    "update_timestep": 1,
+    "viz": true,
+    "viz_name": "Paper_1005",
+    "minibatch_size": 512,
+    "parallel_iter": 20
+  },
+  "test_paras": {
+    "num_ins": 100,
+    "rules": ["DRL"],
+    "sample": false,
+    "num_sample": 100,
+    "num_average": 10,
+    "public_ins": true,
+    "data_path": "1005"
+  }
+}
