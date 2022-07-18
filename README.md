@@ -1,6 +1,19 @@
 # fjsp-drl
 Implementation of the IEEE TII paper [Flexible Job Shop Scheduling via Graph Neural Network and Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9826438). *IEEE Transactions on Industrial Informatics*, 2022.
 
+```
+@ARTICLE{9826438,  
+   author={Song, Wen and Chen, Xinyang and Li, Qiqiang and Cao, Zhiguang},  
+   journal={IEEE Transactions on Industrial Informatics},   
+   title={Flexible Job Shop Scheduling via Graph Neural Network and Deep Reinforcement Learning},   
+   year={2022},  
+   volume={},  
+   number={},  
+   pages={1-11},  
+   doi={10.1109/TII.2022.3189725}
+ }
+```
+
 ## Get Started
 
 ### Installation
